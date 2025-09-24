@@ -1,0 +1,21 @@
+.bgimage {
+    height:100vh;
+    background: url('/images/homepagePhoto.JPG');
+    background-size:cover;
+    position:relative;
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.cards-body h5{
+    font-weight: 700;
+}
+
+.card img{
+    max-height: 500px;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="/bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="profile.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg fixed-top navbar-nav-scroll">
+    <div class="container">
+        <a class="navbar-brand" style="color:bisque; font-weight: 700;" href="/homepage.html" >Christian Mikaxelo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto" style="color: bisque;">
+                <li class="nav-item active">
+                    <a class="nav-link" style="color: bisque;" href="/homepage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: bisque;" href="/profile/profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: bisque;" href="/hometown/hometown.html">Hometown</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: bisque;" href="/food/food.html">Food</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: bisque;" href="/tourist/tourist.html">Tourism</a>
+                </li>
+            </ul>
+
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="position-relative" style="height: 100vh;">
+    <style>
+        @keyframes opacity {
+            from {
+                opacity: 0.9;
+            }
+            to {
+                opacity: 0.5;
+            }
+        }
+    </style>
+    <div class="bgimage" style="animation: opacity 1000ms forwards;"></div>
+
+    <img src="/images/profile.JPG" class="img-thumbnail img-fluid position-absolute" 
+         style="width: 20%; top: 25%; left: 10%;" 
+         alt="/images/profile.JPG"
+         data-aos="fade-right"
+         data-aos-duration="1000">
+<div class="card position-absolute" style="width: 50%; left: 40%; top: 25%;" data-aos="fade-left"
+         data-aos-duration="1000"
+         data-aos-delay="200">
+        <div class="card-body">
+            <h5 class="card-title" style="font-weight: 700;">About Me</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Christian Mikaxelo - 5025241178</h6>
+            <p class="card-text">I'm currently studying Informatics at Sepuluh Nopember Institute of Technology. Passionate about Cybersecurity and CTF. I'm Eager to learn new things.
+                Beside my studies, I also like to exercise at the ITS Gym, doing some band performance, and many more. I also participate in some CTF competitions, Committee, and Christian Fellowship
+            </p>
+        </div>
+    </div>
+<div class="container position-absolute" style="width: 80%; left: 39.5%; top: 50%;" data-aos="fade-up"
+         data-aos-duration="1000"
+         data-aos-delay="200">
+         
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+                <img src="/images/napas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Committee</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+                <img src="/images/gym.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gym</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+                <img src="/images/band.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Band</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
